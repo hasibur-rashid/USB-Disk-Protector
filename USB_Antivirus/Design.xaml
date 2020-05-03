@@ -1,0 +1,55 @@
+﻿<Page
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	xmlns:ei="http://schemas.microsoft.com/expression/2010/interactions" xmlns:ee="http://schemas.microsoft.com/expression/2010/effects" xmlns:System="clr-namespace:System;assembly=mscorlib"
+	x:Class="USB_Antivirus.Design"
+	x:Name="Page"
+	WindowTitle="Page"
+	FlowDirection="LeftToRight"
+	Width="640" Height="480"
+	WindowWidth="640" WindowHeight="480">
+	<Page.Resources>
+		<Storyboard x:Key="OnMouseEnter1"/>
+		<Storyboard x:Key="OnMouseLeave1"/>
+	</Page.Resources>
+
+	<Grid x:Name="LayoutRoot">
+		<Path Data="M39,239 L79.5,239.5 99.5,160.5 116.5,279.5 130.5,238.5 141.5,238.5 156.5,199.5 170.5,276.5 188.5,159.5 198.5,238.5 231.5,238.5" HorizontalAlignment="Left" Margin="33,50.5,0,0" Stretch="Fill" Stroke="#FFFF0034" Width="79.5" StrokeThickness="5" Height="50.501" VerticalAlignment="Top"/>
+		<Path Data="M262.16726,160.33333 L240.16667,160.33333 240.16667,179.16699 247.16663,179.16699" HorizontalAlignment="Left" Height="29.123" Stretch="Fill" Stroke="#FFFF0034" StrokeThickness="5" VerticalAlignment="Top" Width="32.802" Margin="158.167,44.333,0,0"/>
+		<Path Data="M248,160.33333 L240.16667,160.33333 240.16667,179.16699 262.16689,179.16699" HorizontalAlignment="Left" Stretch="Fill" Stroke="#FFFF0034" StrokeThickness="5" Width="31.983" Margin="158.167,78.345,0,0" Height="29.123" VerticalAlignment="Top"/>
+		<Path Data="M258.64367,160.4633 L240.16667,160.33333 240.16667,179.16699 247.16663,179.16699" Stretch="Fill" Stroke="#FFFF0034" StrokeThickness="5" RenderTransformOrigin="0.5,0.5" Margin="199.616,78.341,0,0" HorizontalAlignment="Left" Height="29.124" VerticalAlignment="Top" Width="28.522">
+			<Path.RenderTransform>
+				<TransformGroup>
+					<ScaleTransform ScaleY="0.99999999999999978" ScaleX="0.99999999999999978"/>
+					<SkewTransform AngleX="0.002"/>
+					<RotateTransform Angle="-179.851"/>
+					<TranslateTransform X="-10.643982484036121" Y="-0.013654289170439427"/>
+				</TransformGroup>
+			</Path.RenderTransform>
+		</Path>
+		<Path Data="M248,160.33333 L240.16667,160.33333 240.16667,179.16699 258.02489,179.13913" Height="29.123" Margin="199.749,44.534,0,0" Stretch="Fill" Stroke="#FFFF0034" StrokeThickness="5" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" HorizontalAlignment="Left" Width="27.769">
+			<Path.RenderTransform>
+				<TransformGroup>
+					<ScaleTransform ScaleY="0.99999999999999978" ScaleX="0.99999999999999978"/>
+					<SkewTransform AngleX="0.002"/>
+					<RotateTransform Angle="-179.851"/>
+					<TranslateTransform X="-10.023983504319622" Y="-0.012858943502870091"/>
+				</TransformGroup>
+			</Path.RenderTransform>
+		</Path>
+		<Ellipse Margin="167.076,55.534,0,0" Stroke="#FFFF0034" StrokeThickness="5" HorizontalAlignment="Left" Height="41.545" VerticalAlignment="Top" Width="41.306"/>
+		<Path Data="M261,175 L261,186.21169" Margin="185.544,62.255,0,0" Stretch="Fill" Stroke="#FFFF0034" StrokeThickness="5" HorizontalAlignment="Left" Width="6.074" Height="19.81" VerticalAlignment="Top"/>
+		<Ellipse HorizontalAlignment="Left" Height="6.461" Margin="184.576,82.065,0,0" Stroke="#FFFF0034" StrokeThickness="5" VerticalAlignment="Top" Width="6.074"/>
+		<Grid HorizontalAlignment="Left" Height="54.667" Margin="268.5,50.5,0,0" VerticalAlignment="Top" Width="45">
+			<Path Data="M160,279.33333 L159.5,307.50034 179.5,323.50003 199.5,306.83348 199.16667,278.83368 C199.16667,278.83368 180.5,273.83342 180.5,273.83342 158.83333,278.83305 160,279.33333 160,279.33333 z" Stretch="Fill" Stroke="#FFFF0034" StrokeThickness="5"/>
+			<Path Data="M168,295.83333 L175,303.50034 186.83334,291.66702" Margin="11.84,15.83,9.327,22.004" Stretch="Fill" Stroke="#FFFF0034" StrokeThickness="5"/>
+		</Grid>
+		<Grid HorizontalAlignment="Right" Margin="0,44.333,226.347,0" Width="67.333" Height="67.176" VerticalAlignment="Top">
+			<Ellipse Stroke="#FFFF0034" StrokeThickness="5"/>
+			<Rectangle HorizontalAlignment="Right" Height="14.756" Margin="0,0,14.914,16.968" Stroke="#FFFF0034" StrokeThickness="5" VerticalAlignment="Bottom" Width="17.036" Fill="#FFFF0034"/>
+			<Rectangle HorizontalAlignment="Left" Height="14.756" Margin="15.658,0,0,17.118" Stroke="#FFFF0034" StrokeThickness="5" VerticalAlignment="Bottom" Width="17.036" Fill="#FFFF0034"/>
+			<Rectangle HorizontalAlignment="Left" Height="14.756" Margin="15.658,17.998,0,0" Stroke="#FFFF0034" StrokeThickness="5" VerticalAlignment="Top" Width="17.036" Fill="#FFFF0034"/>
+			<Rectangle HorizontalAlignment="Right" Height="14.756" Margin="0,17.998,14.914,0" Stroke="#FFFF0034" StrokeThickness="5" VerticalAlignment="Top" Width="17.036" Fill="#FFFF0034"/>
+		</Grid>
+	</Grid>
+</Page>
